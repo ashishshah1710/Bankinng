@@ -1,9 +1,10 @@
 package com.Banking.controller.dto;
-
-
 public class BankFormDto 
 {
-
+	private String Name;
+	private String Gender;
+	private String Mobile;
+	private int Age;
 	public String getName() {
 		return Name;
 	}
@@ -39,8 +40,5 @@ public class BankFormDto
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	private String Name;
-	private String Gender;
-	private String Mobile;
-	private int Age;
+	
 }
